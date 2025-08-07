@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/kbusunho/KDT-server-process#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "index.js": "^0.0.3",
+    "mongoose": "^8.17.0",
     "node": "^22.18.0"
   },
   "devDependencies": {
